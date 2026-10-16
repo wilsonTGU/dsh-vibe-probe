@@ -1,0 +1,28 @@
+{
+  "name": "repo-card",
+  "version": "0.1.0",
+  "description": "Print a compact card summarising a GitHub repository, using the GitHub REST API.",
+  "license": "MIT",
+  "bin": {
+    "repo-card": "bin/repo-card.js"
+  },
+  "main": "lib/repo-card.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/repo-card.js",
+    "test": "node --test"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "github",
+    "cli",
+    "api"
+  ]
+}
